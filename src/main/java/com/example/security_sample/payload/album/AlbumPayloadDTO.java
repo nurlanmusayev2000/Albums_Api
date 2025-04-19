@@ -1,0 +1,17 @@
+package com.example.security_sample.payload.album;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class AlbumPayloadDTO {
+
+	private String name;
+
+	private String description;
+}

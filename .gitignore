@@ -1,0 +1,63 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven build
+*.jar
+*.war
+*.ear
+
+# IDEs
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Database files (optional - if you're storing db files in your repo)
+db/*.db
+*.mv.db
+*.h2.db
+
+# Environment files
+.env
+application-*.yml
+application-*.properties
